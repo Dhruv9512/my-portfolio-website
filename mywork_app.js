@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
 // Data fetching 
 async function fetchDataAndPopulateTable() {
     try {
-        const response = await fetch('https://my-portfilio-one.vercel.app/api', {
+        const response = await fetch('https://my-portfilio.onrender.com/api', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
